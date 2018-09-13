@@ -13,8 +13,8 @@ const codes = [
 
 function init() {
   // your code here
+  let index = 0;
   document.body.addEventListener('keydown', function(event){
-    let index = 0;
       const key = event.key;
       if (key === codes[index]){
         key.push(event.key)
